@@ -1,0 +1,174 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    max-width: 1440px;
+    margin: auto;
+}
+.image1{
+    height: 55em;
+}
+#active:hover {
+    background: #FE984E;
+}
+#active {
+    background: #FF6B00;
+}
+
+#project:hover {
+    background: #C5E9DA;
+}
+#project {
+    background: #36B37E;
+}
+
+#touch:hover {
+    background: #FE984E;
+}
+#touch {
+    background: #FF6B00;
+}
+.bare{
+    background: black;
+    width: 5em;
+    height: 0.4em;
+    border-radius: 10px;
+    margin-left: 10em;
+    display: none;
+}
+.section1{
+    margin-top: 5em;
+}
+.boite3 {
+    background: #EBF0EE;
+    width: 22em;
+    height: 22em;
+}
+#lastname{
+    width: 19.4rem;
+}
+#mail2 {
+    display: none;
+}
+#presentation{
+    padding-top: 15em;
+} 
+
+@media screen and (max-width: 1440px) {
+    *{
+        margin: 0px;
+        padding: 0px;
+    }
+    body {
+        max-width: 1440px;
+        margin: auto;
+    }
+    #presentation{
+        padding-top: 15em;
+    }    
+    .section1{
+        height: 100vh;
+    }
+    .image1{
+        height: 55em;
+    }
+    .btn1{
+        width: 30rem;
+    }
+    #lastname{
+        width: 19.4rem;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    *{
+        margin: 0px;
+        padding: 0px;
+    }
+    body {
+        max-width: 1024px;
+        margin: auto;
+    }
+    .work{
+        margin-top: 8em;
+    }
+    #colonnes1, #colonnes2 {
+        width: 25em;
+    }
+    .btn1{
+        width: 25rem;
+    }
+    .image1 {
+       height: 40em;
+    }
+     #presentation{
+        padding-top: 8em;
+    }
+    #lastname{
+        width: 13.8rem
+    }
+}
+
+@media screen and (max-width: 1199px) {
+    #colonnes1, #colonnes2, #colonnes3 {
+        margin: 29px;
+    }
+}
+@media screen and (max-width: 768px) {
+    *{
+        margin: 0px;
+        padding: 0px;
+    }
+    .section1{
+        height: 70vh;
+    }
+    .image1 {
+       margin: 0px;
+       height: 25em;
+    }
+    #colonnes1, #colonnes2, #colonnes3 {
+        margin: 12px;
+    }
+}
+@media screen and (max-width: 425px) {
+    *{
+        margin: 0px;
+        padding: 0px;
+    }
+    .section1{
+        height: 100vh;
+    }
+    #Get{
+        text-align: center;
+    }
+    .image1 {
+        height: 38vh;
+    }
+    #bordure {
+        border-left: none;
+        border-right: none;
+    }
+    .bare{
+        display: inline-block;
+    }
+    #maile {
+        display: none;
+    }
+    #mail2 {
+        display: block;
+        font-size: 15px;
+    }
+}
+@media screen and (max-width: 375px) {
+    .image1 {
+      height: 33vh;
+    }
+    .bare{
+        margin-left: 8.5em;
+    }
+    .boite3 {
+        width: 20rem;
+    }
+}
