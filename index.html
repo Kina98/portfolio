@@ -14,7 +14,7 @@
     <header>
       <nav class="navbar navbar-expand-lg bg-light fixed-top">
           <div class="container-fluid justify-content-end">
-              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                   <span class="navbar-toggler-icon"></span>
               </button>
               <div class="collapse navbar-collapse justify-content-center text-center" id="navbarSupportedContent">
@@ -36,16 +36,16 @@
 
     <main>
         <!-- Premiére section -->
-        <section class="section1">
+        <section class="section1 mt-5">
             <div class="container">
                 <div class="row justify-content-sm-center">
-                    <div class="col-lg-5 col-md-6 col-sm-4 mt-5" id="presentation">
+                    <div class="col-lg-5 col-md-auto" id="presentation">
                         <div>
                             <h1 class="fs-1 fw-bold text-center" style="color: #172B4D;">Hey there. I’m Alex.</h1>
                             <h1 class="fs-1 fw-bold text-center" style="color: #FF6B00;">I’m a software developer</h1>
                         </div><br><br>
-                        <div class="text-center fs-3"><p>I can help you build a product , feature or website Look through some of my work and experience! If you like what you see and have a project you need coded, don’t hesitate to contact me.</p></div>
-                        <div class="py-5 text-center">
+                        <div class="text-center fs-3 fw-light"><p>I can help you build a product , feature or website Look through some of my work and experience! If you like what you see and have a project you need coded, don’t hesitate to contact me.</p></div>
+                        <div class="py-5 text-center liens" id="liens-lg">
                             <ul class="list-inline">
                                 <li class="list-inline-item">
                                     <a href="#">
@@ -86,18 +86,56 @@
                                 </li>
                             </ul>
                         </div><br>
+
+                        <div class="text-center liens" id="liens-md">
+                          <ul class="list-inline">
+                              <li class="list-inline-item">
+                                <a href="#">
+                                  <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                      <path d="M19.7587 0.387601C19.4253 -0.00417347 18.8587 -0.102117 18.4253 0.191714L16.492 1.49763C15.592 0.55084 14.3253 0.0284744 12.9587 0.0284744C10.2587 0.0284744 8.02532 2.18323 8.02532 4.86036C8.02532 5.25213 8.05865 5.61126 8.15865 5.97038C5.82532 5.48066 4.42532 3.81562 3.89198 0.812023C3.82532 0.420249 3.52532 0.126418 3.12532 0.0284744C2.75865 -0.0694692 2.35865 0.0937701 2.12532 0.387601C2.05865 0.452896 -3.44135 7.9619 4.52532 14.3282C3.75865 15.928 1.45865 17.2992 0.558651 17.7563C0.125318 17.9521 -0.0746825 18.4092 0.0253175 18.8663C0.125318 19.3234 0.525318 19.6172 0.991984 19.6172H2.72532C12.8587 19.6172 17.4587 14.6874 17.5587 3.65239L19.6587 1.69351C20.0587 1.36704 20.092 0.779375 19.7587 0.387601Z" fill="#505F79"/>
+                                  </svg>
+                              </a>
+                              </li>
+                              <li class="list-inline-item">
+                                  <a href="#">
+                                      <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                          <path d="M13.6444 2.98242C10.1556 2.98242 7.28857 5.7611 7.28857 9.2175V18.9768C7.28857 19.3495 7.59946 19.6545 7.97942 19.6545H11.5718C11.9518 19.6545 12.2627 19.3495 12.2627 18.9768V9.48859C12.2627 8.74309 12.8844 8.13314 13.6444 8.13314C14.4043 8.13314 15.0261 8.74309 15.0261 9.48859V18.9768C15.0261 19.3495 15.3369 19.6545 15.7169 19.6545H19.3093C19.6893 19.6545 20.0001 19.3495 20.0001 18.9768V9.2175C20.0001 5.79499 17.1677 2.98242 13.6444 2.98242Z" fill="#505F79"/>
+                                          <path d="M2.48705 0C1.10535 0 0 1.08419 0 2.43943C0 3.79467 1.10535 4.87886 2.48705 4.87886C3.86874 4.87886 4.97409 3.79467 4.97409 2.43943C4.97409 1.08419 3.86874 0 2.48705 0Z" fill="#505F79"/>
+                                          <path d="M4.28325 6.16699H0.690846C0.310881 6.16699 0 6.47197 0 6.84472V18.976C0 19.3488 0.310881 19.6537 0.690846 19.6537H4.28325C4.66321 19.6537 4.97409 19.3488 4.97409 18.976V6.84472C4.97409 6.47197 4.66321 6.16699 4.28325 6.16699Z" fill="#505F79"/>
+                                      </svg>
+                                  </a>
+                              </li>
+                              <li class="list-inline-item">
+                                <a href="#">
+                                  <svg width="20" height="17" viewBox="0 0 20 17" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                      <path d="M18.4042 2.81372L20 1.29766V0.96582H14.4717L10.5317 10.7043L6.04917 0.96582H0.2525V1.29766L2.11667 3.52623C2.29833 3.69091 2.39333 3.93172 2.36917 4.17419V12.932C2.42667 13.2473 2.32333 13.5717 2.1 13.801L0 16.3283V16.656H5.95417V16.3241L3.85417 13.801C3.62667 13.5709 3.51917 13.2523 3.565 12.932V5.35674L8.79167 16.6601H9.39917L13.8933 5.35674V14.3612C13.8933 14.5987 13.8933 14.6475 13.7367 14.8031L12.12 16.3564V16.6891H19.9633V16.3572L18.405 14.842C18.2683 14.7394 18.1975 14.5673 18.2267 14.4001V3.25562C18.1975 3.08763 18.2675 2.9155 18.4042 2.81372Z" fill="#505F79"/>
+                                  </svg>
+                              </a>
+                              </li>
+                              <li class="list-inline-item">
+                                <a href="#">
+                                  <svg width="18" height="20" viewBox="0 0 18 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                      <path d="M17.9852 7.33208C17.9852 6.2119 17.6192 5.15961 16.9205 4.2431C17.1867 3.36054 17.2532 2.24036 17.1867 0.950455C17.1534 0.407338 16.7209 0 16.1885 0C15.8891 0 13.3604 0.0339448 11.8965 1.35779C10.6321 1.12018 9.30128 1.12018 8.00368 1.35779C6.573 0.0339448 4.04435 0 3.71163 0C3.17928 0 2.74675 0.407338 2.71348 0.950455C2.61366 2.24036 2.71348 3.36054 2.97965 4.2431C2.28095 5.19356 1.91496 6.24585 1.91496 7.33208C1.91496 9.70822 3.71163 11.8467 6.43991 12.8651C6.3401 13.0688 6.27355 13.3064 6.20701 13.544C3.31237 13.2385 1.94823 10.5568 1.88169 10.455C1.64878 9.94583 1.04989 9.74216 0.550818 10.0137C0.0517425 10.2513 -0.147888 10.8623 0.118286 11.3715C0.184829 11.5412 2.01477 15.1733 6.04065 15.5807V18.6357C6.04065 19.2128 6.47319 19.6541 7.0388 19.6541H12.8614C13.427 19.6541 13.8595 19.2128 13.8595 18.6357V14.5963C13.8595 13.9853 13.7264 13.4082 13.4935 12.899C16.1885 11.8467 17.9852 9.74216 17.9852 7.33208Z" fill="#505F79"/>
+                                  </svg>
+                              </a>
+                              </li>
+                              <li class="list-inline-item">
+                                <a href="#">
+                                  <svg width="15" height="20" viewBox="0 0 15 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                      <path d="M6.54751 19.6541C11.2442 19.6541 14.1667 16.2531 14.1667 11.8653C14.1667 10.2111 13.8925 8.71739 11.9817 8.26862C12.4467 7.01732 13.7883 3.39769 13.7883 2.23811C13.7883 1.21691 13.1633 0.361143 12.0492 0.361143C10.2733 0.361143 8.68167 5.41633 8.18334 6.62178C7.7975 5.5277 5.99084 0 4.39834 0C3.16084 0 2.58001 0.8787 2.58001 1.98424C2.58001 3.33955 3.94084 6.85189 4.43417 8.20311C4.18417 8.11467 3.91334 8.03769 3.6375 8.03769C2.70584 8.03769 1.715 9.15469 1.715 10.0571C1.715 10.3986 1.91 10.8785 2.03334 11.1971C0.565005 11.5812 4.77463e-06 12.5254 4.77463e-06 13.9495C-0.00416189 16.7207 2.71917 19.6541 6.54751 19.6541ZM10.5725 4.14619C10.7325 3.67367 11.4125 1.67796 12.0492 1.67796C12.3917 1.67796 12.4833 2.01945 12.4833 2.29215C12.4833 3.02509 10.9475 7.07546 10.6083 7.97299L9.255 7.74288L10.5725 4.14619ZM3.83 1.85485V1.85403C3.83 1.39708 4.40751 0.0999083 5.67251 3.66221L7.05 7.51276C6.42917 7.46281 5.94751 7.39729 5.64167 7.56681C5.20751 6.46127 3.83 2.97186 3.83 1.85485ZM3.73834 9.36598L3.73917 9.36679C4.905 9.36679 6.41001 12.9979 6.41001 13.4892C6.41001 13.685 6.215 13.9265 5.98834 13.9265C5.15584 13.9265 2.92667 10.9743 2.92667 10.1759C2.93001 9.88026 3.43167 9.36598 3.73834 9.36598ZM2.39834 12.3714C2.85167 12.3714 4.55917 14.6865 4.55917 15.1778C4.55917 15.3662 4.2525 15.4964 4.09417 15.4964C3.45334 15.4964 3.2025 14.901 2.06084 13.5236C0.878338 14.6636 2.87667 16.8591 4.38167 16.8591C5.42001 16.8591 6.09667 15.9304 5.89417 15.2466C6.04167 15.2466 6.22417 15.2581 6.36 15.2237C6.40417 16.2637 6.7225 17.5036 8.02001 17.592C8.02001 17.5576 8.10001 17.3193 8.10001 17.3079C8.10001 16.6396 7.67834 16.0565 7.67834 15.3768C7.67834 14.2901 8.54167 13.2386 9.41751 12.6245C9.73584 12.3943 10.1225 12.2518 10.4958 12.1216C10.8825 11.98 11.2925 11.8145 11.5858 11.5304C11.5417 11.1004 11.3592 10.7205 10.9133 10.7205C9.81084 10.7205 6.11334 10.8744 6.11334 9.19646C6.11334 8.93932 6.11751 8.69364 6.80667 8.69364C8.09251 8.69364 11.3567 9.00074 12.3117 9.81065C13.0317 10.4289 13.2792 14.1558 11.0775 16.5168L11.075 16.5176C9.91667 17.746 8.43584 18.3831 6.70834 18.3831C4.34417 18.3831 2.47667 17.1318 1.5775 14.9936C0.896672 13.3279 1.72917 12.3714 2.39834 12.3714ZM7.14917 11.6802C7.53667 11.7998 7.93417 11.835 8.33251 11.9112C8.03751 12.1184 7.77584 12.3722 7.52417 12.6441C7.41251 12.3182 7.27667 11.9996 7.14917 11.6802Z" fill="#505F79"/>
+                                  </svg>
+                              </a>
+                              </li>
+                          </ul>
+                      </div><br>
                         <div class="py-md-2 text-center d-none d-lg-inline">
                             <button type="button" class="btn1" id="active" style=" height: 6rem; border: 1px solid; border-top-right-radius: 1.2rem; border-bottom-left-radius: 1.2rem; box-shadow: 8px 8px 8px gray;"><a class="fs-1 fw-bold text-white" style="text-decoration: none;" href="#">Download CV</a><i class="bi bi-download text-white m-5 fs-2"></i></button>
                         </div>
                        
                     </div>
-                    <div class="col-lg-7 col-md-6 col-sm-4 mt-5">
+                    <div class="col-lg-7 col-md-auto">
                       <img class="image1" src="Images/Img7.png" alt="">
-                    </div>
-                    <div class="text-center d-none d-lg-inline mt-5">
-                      <ul class="list-inline">
-                        <li class="list-inline-item"><i class="bi bi-check-circle fs-1"></i></li>
-                      </ul>
+                      <a href="#" class="bi bi-check-circle fs-3 text-secondary text-center justify-content-center d-none d-lg-inline"></a>
                     </div>
                 </div>
             </div>
@@ -113,12 +151,12 @@
                         <div class="card bg-light" id="bordure">
                             <img src="Images/Img6.webp" class="card-img-top" alt="..." style="box-shadow: 8px 8px 8px #a7afac; height: 18em;">
                             <div class="card-body">
-                              <h3 class="fs-5 fw-medium text-center" style="color: #172B4D;">Impact</h3>
+                              <h3 class="fs-3 fw-medium text-center" style="color: #172B4D;">Impact</h3>
                               <ul class="list-inline mt-4 text-center">
-                                <li class="list-inline-item"><a href="#" class="btn fw-medium" style="background: #EBF0EE; color: #FF6B00; font-size: 10px;">Ruby on Rails</a></li>
-                                <li class="list-inline-item"><a href="#" class="btn fw-medium" style="background: #EBF0EE; color: #FF6B00; font-size: 10px;">CSS</a></li>
-                                <li class="list-inline-item"><a href="#" class="btn fw-medium" style="background: #EBF0EE; color: #FF6B00; font-size: 10px;">JavaScript</a></li>
-                                <li class="list-inline-item"><a href="#" class="btn fw-medium" style="background: #EBF0EE; color: #FF6B00; font-size: 10px;">HTML</a></li>
+                                <li class="list-inline-item"><a href="#" class="btn fw-medium fw-bold" style="background: #EBF0EE; color: #FF6B00; font-size: 8px;">Ruby on Rails</a></li>
+                                <li class="list-inline-item"><a href="#" class="btn fw-medium fw-bold" style="background: #EBF0EE; color: #FF6B00; font-size: 8px;">CSS</a></li>
+                                <li class="list-inline-item"><a href="#" class="btn fw-medium fw-bold" style="background: #EBF0EE; color: #FF6B00; font-size: 8px;">JavaScript</a></li>
+                                <li class="list-inline-item"><a href="#" class="btn fw-medium fw-bold" style="background: #EBF0EE; color: #FF6B00; font-size: 8px;">HTML</a></li>
                               </ul>
                               <div class="text-center mt-4">
                                 <a href="#" class="btn text-white" id="project">See project</a>
@@ -130,12 +168,12 @@
                         <div class="card bg-light" id="bordure">
                             <img src="Images/Img2.webp" class="card-img-top" alt="..." style="box-shadow: 8px 8px 8px #a7afac; height: 18em;">
                             <div class="card-body">
-                              <h3 class="fs-5 fw-medium text-center" style="color: #172B4D;">E-Solutions</h3>
+                              <h3 class="fs-3 fw-medium text-center" style="color: #172B4D;">E-Solutions</h3>
                               <ul class="list-inline mt-4 text-center">
-                                <li class="list-inline-item"><a href="#" class="btn fw-medium" style="background: #EBF0EE; color: #FF6B00; font-size: 10px;">Ruby on Rails</a></li>
-                                <li class="list-inline-item"><a href="#" class="btn fw-medium" style="background: #EBF0EE; color: #FF6B00; font-size: 10px;">CSS</a></li>
-                                <li class="list-inline-item"><a href="#" class="btn fw-medium" style="background: #EBF0EE; color: #FF6B00; font-size: 10px;">JavaScript</a></li>
-                                <li class="list-inline-item"><a href="#" class="btn fw-medium" style="background: #EBF0EE; color: #FF6B00; font-size: 10px;">HTML</a></li>
+                                <li class="list-inline-item"><a href="#" class="btn fw-medium fw-bold" style="background: #EBF0EE; color: #FF6B00; font-size: 8px;">Ruby on Rails</a></li>
+                                <li class="list-inline-item"><a href="#" class="btn fw-medium fw-bold" style="background: #EBF0EE; color: #FF6B00; font-size: 8px;">CSS</a></li>
+                                <li class="list-inline-item"><a href="#" class="btn fw-medium fw-bold" style="background: #EBF0EE; color: #FF6B00; font-size: 8px;">JavaScript</a></li>
+                                <li class="list-inline-item"><a href="#" class="btn fw-medium fw-bold" style="background: #EBF0EE; color: #FF6B00; font-size: 8px;">HTML</a></li>
                               </ul>
                               <div class="text-center mt-4">
                                 <a href="#" class="btn text-white" id="project">See project</a>
@@ -145,14 +183,14 @@
                     </div>
                     <div class="col-lg-4 col-md-auto" id="colonnes1">
                         <div class="card bg-light" id="bordure">
-                            <img src="Images/Img3.jpg" class="card-img-top" alt="..." style="box-shadow: 8px 8px 8px #a7afac; height: 22rem; height: 18em;">
+                            <img src="Images/Img3.jpg" class="card-img-top" alt="..." style="box-shadow: 8px 8px 8px #a7afac; height: 18em;">
                             <div class="card-body">
-                              <h3 class="fs-5 fw-medium text-center" style="color: #172B4D;">Design-HUB</h3>
+                              <h3 class="fs-3 fw-medium text-center" style="color: #172B4D;">Design-HUB</h3>
                               <ul class="list-inline mt-4 text-center">
-                                <li class="list-inline-item"><a href="#" class="btn fw-medium" style="background: #EBF0EE; color: #FF6B00; font-size: 10px;">Ruby on Rails</a></li>
-                                <li class="list-inline-item"><a href="#" class="btn fw-medium" style="background: #EBF0EE; color: #FF6B00; font-size: 10px;">CSS</a></li>
-                                <li class="list-inline-item"><a href="#" class="btn fw-medium" style="background: #EBF0EE; color: #FF6B00; font-size: 10px;">JavaScript</a></li>
-                                <li class="list-inline-item"><a href="#" class="btn fw-medium" style="background: #EBF0EE; color: #FF6B00; font-size: 10px;">HTML</a></li>
+                                <li class="list-inline-item"><a href="#" class="btn fw-medium fw-bold" style="background: #EBF0EE; color: #FF6B00; font-size: 8px;">Ruby on Rails</a></li>
+                                <li class="list-inline-item"><a href="#" class="btn fw-medium fw-bold" style="background: #EBF0EE; color: #FF6B00; font-size: 8px;">CSS</a></li>
+                                <li class="list-inline-item"><a href="#" class="btn fw-medium fw-bold" style="background: #EBF0EE; color: #FF6B00; font-size: 8px;">JavaScript</a></li>
+                                <li class="list-inline-item"><a href="#" class="btn fw-medium fw-bold" style="background: #EBF0EE; color: #FF6B00; font-size: 8px;">HTML</a></li>
                               </ul>
                               <div class="text-center mt-4">
                                 <a href="#" class="btn text-white" id="project">See project</a>
@@ -165,14 +203,14 @@
                 <div class="row mt-4 justify-content-center">
                     <div class="col-lg-4 col-md-auto" id="colonnes2">
                         <div class="card bg-light" id="bordure">
-                            <img src="Images/img1.webp" class="card-img-top" alt="..." style="box-shadow: 8px 8px 8px #a7afac; height: 22rem; height: 18em;">
+                            <img src="Images/img1.webp" class="card-img-top" alt="..." style="box-shadow: 8px 8px 8px #a7afac; height: 18em;">
                             <div class="card-body">
-                              <h3 class="fs-5 fw-medium text-center" style="color: #172B4D;">Portfolio Freya Moore</h3>
+                              <h3 class="fs-3 fw-medium text-center" style="color: #172B4D;">Portfolio<br> Freya Moore</h3>
                               <ul class="list-inline mt-4 text-center">
-                                <li class="list-inline-item"><a href="#" class="btn fw-medium" style="background: #EBF0EE; color: #FF6B00; font-size: 10px;">Ruby on Rails</a></li>
-                                <li class="list-inline-item"><a href="#" class="btn fw-medium" style="background: #EBF0EE; color: #FF6B00; font-size: 10px;">CSS</a></li>
-                                <li class="list-inline-item"><a href="#" class="btn fw-medium" style="background: #EBF0EE; color: #FF6B00; font-size: 10px;">JavaScript</a></li>
-                                <li class="list-inline-item"><a href="#" class="btn fw-medium" style="background: #EBF0EE; color: #FF6B00; font-size: 10px;">HTML</a></li>
+                                <li class="list-inline-item"><a href="#" class="btn fw-medium fw-bold" style="background: #EBF0EE; color: #FF6B00; font-size: 8px;">Ruby on Rails</a></li>
+                                <li class="list-inline-item"><a href="#" class="btn fw-medium fw-bold" style="background: #EBF0EE; color: #FF6B00; font-size: 8px;">CSS</a></li>
+                                <li class="list-inline-item"><a href="#" class="btn fw-medium fw-bold" style="background: #EBF0EE; color: #FF6B00; font-size: 8px;">JavaScript</a></li>
+                                <li class="list-inline-item"><a href="#" class="btn fw-medium fw-bold" style="background: #EBF0EE; color: #FF6B00; font-size: 8px;">HTML</a></li>
                               </ul>
                               <div class="text-center mt-4">
                                 <a href="#" class="btn text-white" id="project">See project</a>
@@ -184,12 +222,12 @@
                         <div class="card bg-light" id="bordure">
                             <img src="Images/Img8.jpeg" class="card-img-top" alt="..." style="box-shadow: 8px 8px 8px #a7afac; height: 18em;">
                             <div class="card-body">
-                              <h3 class="fs-5 fw-medium text-center" style="color: #172B4D;">Sass Digital Creator</h3>
+                              <h3 class="fs-3 fw-medium text-center" style="color: #172B4D;">Sass <br>Digital Creator</h3>
                               <ul class="list-inline mt-4 text-center">
-                                <li class="list-inline-item"><a href="#" class="btn fw-medium" style="background: #EBF0EE; color: #FF6B00; font-size: 10px;">Ruby on Rails</a></li>
-                                <li class="list-inline-item"><a href="#" class="btn fw-medium" style="background: #EBF0EE; color: #FF6B00; font-size: 10px;">CSS</a></li>
-                                <li class="list-inline-item"><a href="#" class="btn fw-medium" style="background: #EBF0EE; color: #FF6B00; font-size: 10px;">JavaScript</a></li>
-                                <li class="list-inline-item"><a href="#" class="btn fw-medium" style="background: #EBF0EE; color: #FF6B00; font-size: 10px;">HTML</a></li>
+                                <li class="list-inline-item"><a href="#" class="btn fw-medium fw-bold" style="background: #EBF0EE; color: #FF6B00; font-size: 8px;">Ruby on Rails</a></li>
+                                <li class="list-inline-item"><a href="#" class="btn fw-medium fw-bold" style="background: #EBF0EE; color: #FF6B00; font-size: 8px;">CSS</a></li>
+                                <li class="list-inline-item"><a href="#" class="btn fw-medium fw-bold" style="background: #EBF0EE; color: #FF6B00; font-size: 8px;">JavaScript</a></li>
+                                <li class="list-inline-item"><a href="#" class="btn fw-medium fw-bold" style="background: #EBF0EE; color: #FF6B00; font-size: 8px;">HTML</a></li>
                               </ul>
                               <div class="text-center mt-4">
                                 <a href="#" class="btn text-white" id="project">See project</a>
@@ -199,14 +237,14 @@
                     </div>
                     <div class="col-lg-4 col-md-auto" id="colonnes2">
                         <div class="card bg-light" id="bordure">
-                            <img src="Images/Img5.jpg" class="card-img-top" alt="..." style="box-shadow: 8px 8px 8px #a7afac; height: 22rem; height: 18em;">
+                            <img src="Images/Img5.jpg" class="card-img-top" alt="..." style="box-shadow: 8px 8px 8px #a7afac; height: 18em;">
                             <div class="card-body">
-                              <h3 class="fs-5 fw-medium text-center mt-2" style="color: #172B4D;">ALLAN JOHNSON</h3>
+                              <h3 class="fs-3 fw-medium text-center mt-2" style="color: #172B4D;">ALLAN <br>JOHNSON</h3>
                               <ul class="list-inline mt-3 text-center">
-                                <li class="list-inline-item"><a href="#" class="btn fw-medium" style="background: #EBF0EE; color: #FF6B00; font-size: 10px;">Ruby on Rails</a></li>
-                                <li class="list-inline-item"><a href="#" class="btn fw-medium" style="background: #EBF0EE; color: #FF6B00; font-size: 10px;">CSS</a></li>
-                                <li class="list-inline-item"><a href="#" class="btn fw-medium" style="background: #EBF0EE; color: #FF6B00; font-size: 10px;">JavaScript</a></li>
-                                <li class="list-inline-item"><a href="#" class="btn fw-medium" style="background: #EBF0EE; color: #FF6B00; font-size: 10px;">HTML</a></li>
+                                <li class="list-inline-item"><a href="#" class="btn fw-medium fw-bold" style="background: #EBF0EE; color: #FF6B00; font-size: 8px;">Ruby on Rails</a></li>
+                                <li class="list-inline-item"><a href="#" class="btn fw-medium fw-bold" style="background: #EBF0EE; color: #FF6B00; font-size: 8px;">CSS</a></li>
+                                <li class="list-inline-item"><a href="#" class="btn fw-medium fw-bold" style="background: #EBF0EE; color: #FF6B00; font-size: 8px;">JavaScript</a></li>
+                                <li class="list-inline-item"><a href="#" class="btn fw-medium fw-bold" style="background: #EBF0EE; color: #FF6B00; font-size: 8px;">HTML</a></li>
                               </ul>
                               <div class="text-center mt-4">
                                 <a href="#" class="btn text-white" id="project">See project</a>
@@ -219,12 +257,12 @@
         </section>
 
         <!-- Troisieme section -->
-        <section class="py-5 my-5">
+        <section id="section3">
             <div class="container" id="about">
                 <h1 class="fs-1 fw-bold text-center mt-4" style="color: #172B4D;">About me</h1>
                 <div class="bare "></div>
-                <div class="justify-content-center"><p class="text-center mt-4 fs-3">I can help you build a product , feature or website Look through some<br> of my work and experience! If you like what you see and have a project<br> you need coded, don’t hesitate to contact me.</p></div>
-                <div class="row mt-5 justify-content-center mx-auto">
+                <div class="justify-content-center"><p class="text-center mt-4 fs-3 fw-light">I can help you build a product , feature or website Look through some <br> of my work and experience! If you like what you see and have a <br> project you need coded, don’t hesitate to contact me.</p></div>
+                <div class="row justify-content-center mt-5">
                     <div class="col-lg-4 col-md-auto" id="colonnes3">
                         <div class="card boite3">
                             <div class="card-body">
@@ -257,12 +295,12 @@
                                         </defs>
                                     </svg>
                                 </div>
-                              <h3 class="fs-5 fw-medium text-center" style="color: #172B4D;">Languages</h3>
+                              <h3 class="fs-3 fw-medium text-center" style="color: #172b4d;">Languages</h3>
                               <ul class="list-inline mt-4 text-center">
-                                <li class="list-inline-item"><a href="#" class="btn fw-medium" style="background: #FFFFFF; color: #FF6B00; font-size: 10px;">JavaScript</a></li>
-                                <li class="list-inline-item"><a href="#" class="btn fw-medium" style="background: #FFFFFF; color: #FF6B00; font-size: 10px;">Ruby</a></li>
-                                <li class="list-inline-item"><a href="#" class="btn fw-medium" style="background: #FFFFFF; color: #FF6B00; font-size: 10px;">HTML</a></li>
-                                <li class="list-inline-item"><a href="#" class="btn fw-medium" style="background: #FFFFFF; color: #FF6B00; font-size: 10px;">CSS</a></li>
+                                <li class="list-inline-item"><a href="#" class="btn fw-medium fw-bold" style="background: #FFFFFF; color: #FF6B00; font-size: 8px;">Ruby</a></li>
+                                <li class="list-inline-item"><a href="#" class="btn fw-medium fw-bold" style="background: #FFFFFF; color: #FF6B00; font-size: 8px;">JavaScript</a></li>
+                                <li class="list-inline-item"><a href="#" class="btn fw-medium fw-bold" style="background: #FFFFFF; color: #FF6B00; font-size: 8px;">HTML</a></li>
+                                <li class="list-inline-item"><a href="#" class="btn fw-medium fw-bold" style="background: #FFFFFF; color: #FF6B00; font-size: 8px;">CSS</a></li>
                               </ul>
                             </div>
                           </div>
@@ -303,12 +341,13 @@
                                         </defs>
                                         </svg>
                                 </div>
-                              <h3 class="fs-5 fw-medium text-center" style="color: #172B4D;">Frameworks</h3>
+                              <h3 class="fs-3 fw-medium text-center" style="color: #172B4D;">Frameworks</h3>
                               <ul class="list-inline mt-4 text-center">
-                                <li class="list-inline-item"><a href="#" class="btn fw-medium" style="background: #FFFFFF; color: #FF6B00; font-size: 10px;">React.js</a></li>
-                                <li class="list-inline-item"><a href="#" class="btn fw-medium" style="background: #FFFFFF; color: #FF6B00; font-size: 10px;">Ruby on Rails</a></li>
-                                <li class="list-inline-item"><a href="#" class="btn fw-medium" style="background: #FFFFFF; color: #FF6B00; font-size: 10px;">RSpec</a></li><br><br>
-                                <li class="list-inline-item"><a href="#" class="btn fw-medium" style="background: #FFFFFF; color: #FF6B00; font-size: 10px;">Capybara</a></li>
+                                <li class="list-inline-item"><a href="#" class="btn fw-medium fw-bold" style="background: #FFFFFF; color: #FF6B00; font-size: 8px;">React.js</a></li>
+                                <li class="list-inline-item"><a href="#" class="btn fw-medium fw-bold" style="background: #FFFFFF; color: #FF6B00; font-size: 8px;">Ruby on Rails</a></li>
+                                <li class="list-inline-item"><a href="#" class="btn fw-medium fw-bold" style="background: #FFFFFF; color: #FF6B00; font-size: 8px;">RSpec</a></li>
+                                <li class="list-inline-item"><a href="#" class="btn fw-medium fw-bold" style="background: #FFFFFF; color: #FF6B00; font-size: 8px;">Capybara</a></li>
+                                <li class="list-inline-item" id="md"><a href="#" class="btn fw-medium fw-bold mt-2" style="background: #FFFFFF; color: #FF6B00; font-size: 8px;">Selenium</a></li>
                               </ul>
                             </div>
                           </div>
@@ -342,13 +381,13 @@
                                         </defs>
                                         </svg>
                                 </div>
-                              <h3 class="fs-5 fw-medium text-center" style="color: #172B4D;">Skills</h3>
+                              <h3 class="fs-3 fw-medium text-center" style="color: #172B4D;">Skills</h3>
                               <ul class="list-inline mt-4 text-center">
-                                <li class="list-inline-item"><a href="#" class="btn fw-medium" style="background: #FFFFFF; color: #FF6B00; font-size: 10px;">Database Management</a></li>
-                                <li class="list-inline-item"><a href="#" class="btn fw-medium" style="background: #FFFFFF; color: #FF6B00; font-size: 10px;">Version Control</a></li><br><br>
-                                <li class="list-inline-item"><a href="#" class="btn fw-medium" style="background: #FFFFFF; color: #FF6B00; font-size: 10px;">CLI</a></li>
-                                <li class="list-inline-item"><a href="#" class="btn fw-medium" style="background: #FFFFFF; color: #FF6B00; font-size: 10px;">Web Development</a></li>
-                                <li class="list-inline-item"><a href="#" class="btn fw-medium" style="background: #FFFFFF; color: #FF6B00; font-size: 10px;">API Design</a></li>
+                                <li class="list-inline-item"><a href="#" class="btn fw-medium fw-bold" style="background: #FFFFFF; color: #FF6B00; font-size: 8px;">Database Management</a></li>
+                                <li class="list-inline-item"><a href="#" class="btn fw-medium fw-bold" style="background: #FFFFFF; color: #FF6B00; font-size: 8px;">Version Control</a></li>
+                                <li class="list-inline-item"><a href="#" class="btn fw-medium fw-bold" style="background: #FFFFFF; color: #FF6B00; font-size: 8px;">CLI</a></li><br><br>
+                                <li class="list-inline-item"><a href="#" class="btn fw-medium fw-bold" style="background: #FFFFFF; color: #FF6B00; font-size: 8px;">Web Development</a></li>
+                                <li class="list-inline-item"><a href="#" class="btn fw-medium fw-bold" style="background: #FFFFFF; color: #FF6B00; font-size: 8px;">API Design</a></li>
                               </ul>
                             </div>
                           </div>
@@ -358,15 +397,15 @@
         </section>
 
         <!-- Quatrieme section -->
-        <section class="mt-5">
+        <section id="section4">
             <div class="container" id="contact">
                 <div class="row">
-                    <div class="col-12 col-md-6">
+                    <div class="col-lg-6">
                         <h1 class="fs-1 fw-bold text-center mt-5" style="color: #172B4D;">Contact Me</h1>
                        <div class="bare d-lg-none"></div>
                         <h4 class="text-center fs-2 mt-5" style="color: #172B4D;">I'm always interested in hearing about new projects, so if you'd like to chat please get in touch.</h4>
                     </div>
-                    <div class="col-12 col-md-6 mt-5">
+                    <div class="col-lg-6 mt-5">
                         <form action="control">
                           <div class="mt-3 d-lg-none">
                             <input type="text" class="form-control" placeholder="Full name">
@@ -385,7 +424,7 @@
                             <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Email address">
                           </div>
                           <div class="mb-3">
-                            <textarea class="form-control" id="exampleFormControlTextarea1" placeholder="Hey I’d like to connect to..." rows="3" style="border-color: #FF6B00;"></textarea>
+                            <textarea class="form-control" id="exampleFormControlTextarea1" placeholder="Hey I’d like to connect to..." rows="3"></textarea>
                           </div>
                           <div id="Get">
                             <button type="submit" class="btn mb-3 text-light fs-3" id="touch">Get in touch</button>
@@ -393,20 +432,20 @@
                         </form>
                     </div>
                 </div>
-                <div class="text-center mt-5" id="maile">
-                  <p><a href="mailto:boubacarkina1@gmail.com" class="text-secondary fs-1" style="text-decoration: none;">boubacarkina1@gmail.com</a></p>
-                </div>
             </div>
         </section>
     </main>
 
     <!-- Pied de la page -->
-    <footer>
-      <div class="mt-5 text-center bg-light" style="border-top: 1px solid; height: 2rem;">
-        <div class="text-center mt-2" id="mail2">
+    <footer id="footer">
+      <div class="d-none d-lg-inline text-center">
+        <p><a href="mailto:boubacarkina1@gmail.com" class="text-secondary fs-1" style="text-decoration: none;">boubacarkina1@gmail.com</a></p>
+      </div>
+      <div class="text-center bg-light" style="border-top: 0.3px solid; height: 2rem;">
+        <div class="text-center mt-2 d-lg-none d-md-inline" id="mail2">
           <p><a href="mailto:boubacarkina1@gmail.com" class="text-secondary" style="text-decoration: none;">boubacarkina1@gmail.com</a></p>
         </div>
-        <ul class="list-inline mt-2">
+        <ul class="list-inline mt-2 py-4">
             <li class="list-inline-item">
                 <a href="#">
                     <svg width="18" height="20" viewBox="0 0 18 20" fill="none" xmlns="http://www.w3.org/2000/svg">

@@ -8,10 +8,14 @@ body {
     margin: auto;
 }
 .image1{
-    height: 55em;
+    height: 59em;
+    margin-top: 6em;
 }
 #active:hover {
     background: #FE984E;
+}
+#active:active {
+    background: #E35F00;
 }
 #active {
     background: #FF6B00;
@@ -23,12 +27,18 @@ body {
 #project {
     background: #36B37E;
 }
+#project:active {
+    background: #28855D;
+}
 
 #touch:hover {
     background: #FE984E;
 }
 #touch {
     background: #FF6B00;
+}
+#touch:active {
+    background: #E35F00;
 }
 .bare{
     background: black;
@@ -39,22 +49,43 @@ body {
     display: none;
 }
 .section1{
-    margin-top: 5em;
+    margin-top: 1em;
 }
 .boite3 {
     background: #EBF0EE;
-    width: 22em;
+    width: 26em;
     height: 22em;
+    border-radius: 10px;
 }
 #lastname{
     width: 19.4rem;
 }
-#mail2 {
-    display: none;
-}
 #presentation{
     padding-top: 15em;
-} 
+}
+.liens, .btn1{
+    margin-top: 6em;
+}
+.work {
+    margin-top: 5em;
+}
+.card-img-top {
+    border-radius: 15px;
+}
+#bordure {
+    border-top-right-radius: 15px;
+    border-top-left-radius: 15px;
+}
+#md {
+    display: none;
+}
+#liens-md {
+    display: none;
+}
+.form-control:focus{
+    box-shadow: none;
+    border: 2px solid red;
+}
 
 @media screen and (max-width: 1440px) {
     *{
@@ -67,12 +98,10 @@ body {
     }
     #presentation{
         padding-top: 15em;
-    }    
-    .section1{
-        height: 100vh;
     }
     .image1{
-        height: 55em;
+        height: 59em;
+        margin-top: 6em;
     }
     .btn1{
         width: 30rem;
@@ -80,6 +109,40 @@ body {
     #lastname{
         width: 19.4rem;
     }
+    .boite3{
+        width: 23rem;
+    }
+    .section1 {
+        height: 100vh;
+    }
+    .liens, .btn1{
+        margin-top: 6em;
+    }
+    #section3, #section4, #footer {
+        margin-top: 13em;
+    }
+}
+
+@media screen and (max-width: 1400px) {
+    *{
+        margin: 0px;
+        padding: 0px;
+    }
+    body {
+        max-width: 1400px;
+        margin: auto;
+    }
+    .image1{
+        height: 45em;
+    }
+    .section1 {
+        height: 70vh;
+    }
+}
+@media screen and (max-width: 1400px) {
+   .work {
+    margin-top: 7em;
+   }
 }
 
 @media screen and (max-width: 1024px) {
@@ -101,13 +164,16 @@ body {
         width: 25rem;
     }
     .image1 {
-       height: 40em;
+       height: 38em;
     }
      #presentation{
         padding-top: 8em;
     }
     #lastname{
         width: 13.8rem
+    }
+    .liens, .btn1{
+        margin-top: 1em;
     }
 }
 
@@ -126,10 +192,16 @@ body {
     }
     .image1 {
        margin: 0px;
-       height: 25em;
+       height: 28em;
     }
     #colonnes1, #colonnes2, #colonnes3 {
         margin: 12px;
+    }
+    .work{
+        margin-top: 20em;
+    }
+    .boite3{
+        
     }
 }
 @media screen and (max-width: 425px) {
@@ -153,12 +225,23 @@ body {
     .bare{
         display: inline-block;
     }
-    #maile {
+    .work{
+        margin-top: 1em;
+    }
+    .boite3{
+        width: 25rem;
+    }
+    #section3, #section4, #footer {
+        margin-top: 3em;
+    }
+    #md {
+        display: block;
+    }
+    #liens-lg {
         display: none;
     }
-    #mail2 {
+    #liens-md {
         display: block;
-        font-size: 15px;
     }
 }
 @media screen and (max-width: 375px) {
@@ -169,6 +252,14 @@ body {
         margin-left: 8.5em;
     }
     .boite3 {
-        width: 20rem;
+        width: 22rem;
+    }
+}
+@media screen and (max-width: 320px) {
+    .image1 {
+      height: 27vh;
+    }
+    .boite3 {
+        width: 19rem;
     }
 }
